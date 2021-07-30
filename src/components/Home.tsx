@@ -3,6 +3,7 @@ import {useSelector} from "react-redux";
 import {State} from "../types";
 import {Switch, Route, Redirect} from "react-router-dom";
 import Guest from "./Guest";
+import Profile from "./Profile";
 
 const Home = () => {
     const token = useSelector<State, string | undefined>(state => state.token);
